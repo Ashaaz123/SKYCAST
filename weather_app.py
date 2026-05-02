@@ -41,7 +41,7 @@ class WeatherApp:
             print("An error occurred. Please try again.")
 
 if __name__ == "__main__":
-    api_key = "a8e83a3ab54af6c3d0c8541a22390992"  # Replace with your actual API key
+    api_key = # Replace with your actual API key
     app = WeatherApp(api_key)
     city = input("Enter the city name: ")
     data = app.get_weather(city)
